@@ -18,15 +18,17 @@ const AboutMe = () => {
                 About me.
             </h1>
             <p>
-                My name is Gerrit Elenbaas -- and I want to code.
+                I am a Gerrit Elenbaas -- and I want to code.
                 <br></br>
                 I am 8 feet tall and have an appetite for destruction.
                 <br></br>
                 I have am functionally immortal and love dogs.
                 <br></br>
-                I am bohemian hell minx deep space pearl diver.
+                I am a bohemian hell minx, deep space pearl diver.
                 <br></br>
                 I made this using React
+                <br></br>
+                I want you to go hike at the location below.
             </p>
             <img src={aboutMeImage} className="my-2" style={{ width: "90%", height: "80%" }} alt="cover"></img>
         </div>

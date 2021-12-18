@@ -47,7 +47,7 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  margin: 5px 0;
+  margin: 15px 15px 15px 15px;
   line-height: 1.25;
 }
 
@@ -78,6 +78,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  margin-left: 15pt;
 }
 
 a {
