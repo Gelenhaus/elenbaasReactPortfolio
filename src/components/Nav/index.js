@@ -1,56 +1,60 @@
 import React, { useEffect } from 'react';
 
-function Nav(props) {
 
-    const {
-        pictures = [],
-        setCurrentProjectPicture,
-        currentProjectPicture,
-    } = props;
 
-    useEffect(() => {
-        document.title = currentProjectPicture.name;
-    }, [currentProjectPicture]);
+function Nav() {
+    const categories = [
+        {
+            name: "commercial",
+            description:
+                "Photos of grocery stores, food trucks, and other commercial projects",
+        },
+        { name: "portraits", description: "Portraits of people in my life" },
+        { name: "food", description: "Delicious delicacies" },
+        {
+            name: "landscape",
+            description: "Fields, farmhouses, waterfalls, and the beauty of nature",
+        },
+    ];
+
+    function categorySelected() {
+        console.log("hello")
+    }
 
 
     return (
-        <header className="flex-row px-1">
+        <header>
             <h2>
-                <a data-testid="link" href="/">
+                <a href="/">
                     <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-        </a>
+    </a>
             </h2>
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a data-testid="about" href="#about">
+                        <a href="#about">
                             About me
-            </a>
+        </a>
                     </li>
-                    <li className="mx-2">
+                    <li>
                         <span>Contact</span>
                     </li>
-                    {pictures.map((picture) => (
+                    {categories.map((category) => (
                         <li
-                            className={`mx-1 ${currentProjectPicture.name === picture.name && 'navActive'
-                                }`}
-                            key={picture.name}
+                            className="mx-1"
+                            key={category.name}
                         >
-                            <span
-                                onClick={() => {
-                                    setCurrentProjectPicture(picture)
-                                }}
-                            >
-                                {picture.name}
+                            <span onClick={categorySelected} >
+                                {category.name}
                             </span>
                         </li>
                     ))}
                 </ul>
             </nav>
         </header>
+
+
     );
-
-
 }
 
 export default Nav;
