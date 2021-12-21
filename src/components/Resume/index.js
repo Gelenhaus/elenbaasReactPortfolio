@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
         <resume>
-            THIS IS THE RESUME PART
+            RESUME SECTION
         </resume>
     )
 }

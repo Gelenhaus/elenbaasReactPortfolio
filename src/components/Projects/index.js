@@ -12,7 +12,7 @@ function Projects() {
     return (
         <section>
             <h2>
-                My Projects
+                PROJECT SECTION
             </h2>
             <div className="image">
                 <img src={weatherDashboard} className="my-5" style={{ width: "70%" }} >
