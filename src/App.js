@@ -2,33 +2,33 @@ import React, { useState } from 'react';
 import Nav from './components/Nav/index';
 import AboutMe from './components/AboutMe/index';
 import Projects from './components/Projects/index';
+import Footer from './components/Footer/index';
+import ContactMe from './components/ContactMe/index'
+import Resume from './components/Resume/index'
+import './App.css';
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
-    },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  ]);
+  const [currentCategory, setCurrentCategory] = useState('AboutMe');
+  function showNew() {
+    switch (currentCategory) {
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+      case 'ContactMe':
+        return <ContactMe></ContactMe>
+
+      case 'Projects':
+        return <Projects></Projects>
+
+      default:
+        return <AboutMe />
+    }
+  }
 
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-      ></Nav>
-      <main>
-        <div>
-          <Projects></Projects>
-          <AboutMe></AboutMe>
-        </div>
-      </main>
+      <nav currentCategory={currentCategory} setCurrentCategory={setCurrentCategory}></nav>
+      <div>
+        {showNew(currentCategory)}
+      </div>
     </div>
   );
 }

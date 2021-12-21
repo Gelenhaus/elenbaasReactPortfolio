@@ -1,29 +1,27 @@
-import React, { useState } from "react";
+import React from 'react';
 
 
 function Nav(props) {
+
     const {
         categories = [],
         setCurrentCategory,
         currentCategory,
     } = props;
 
-
-
-
     return (
         <header className="flex-row px-1">
             <h2>
                 <a data-testid="link" href="/">
-                    <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-        </a>
+                    Gerrit Elenbaas Portfolio
+                </a>
             </h2>
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
                         <a data-testid="about" href="#about">
                             About me
-            </a>
+                        </a>
                     </li>
                     <li className="mx-2">
                         <span>Contact</span>

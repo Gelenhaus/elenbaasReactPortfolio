@@ -1,12 +1,12 @@
 import React from 'react';
-import ohSnap from '../../assets/ohSnap/ohSnap.jpg'
+import cover from '../../assets/cover/myReactPortfolioBackground.jpeg'
 
 
 function AboutMe() {
     return (
         <section className="my-5">
-            <h1 id="about">Who am I?</h1>
-            <img src={ohSnap} className="my-2" style={{ width: "100%" }} alt="cover" />
+            <h1 id="about">This is about me</h1>
+            <img src={cover} className="my-2" style={{ width: "100%" }} alt="cover" />
         </section>
 
     );
