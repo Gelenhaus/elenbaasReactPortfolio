@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
         <resume>
-            RESUME SECTION
+            EDUCATION: Bachelors of Science Central Michigan University
         </resume>
     )
 }
