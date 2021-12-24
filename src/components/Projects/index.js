@@ -14,40 +14,54 @@ function Projects() {
             <h2>
                 PROJECT SECTION
             </h2>
+            <h3>
+                Click the images to checkout my projects.
+            </h3>
             <div className="image">
-                <img src={weatherDashboard} className="my-5" style={{ width: "70%" }} >
-                </img>
-                <a href="">
+                <a href="https://gelenhaus.github.io/myWeatherDashboard/">
+                    <img src={weatherDashboard} className="my-5" style={{ width: "70%" }} >
+                    </img>
                 </a>
+
+
             </div>
             <div className="image">
-                <img src={noteTaker} className="my-5" style={{ width: "70%" }}>
-                </img>
-                <a href="">
+                <a href="https://github.com/Gelenhaus/noteTakingApp">
+                    <img src={noteTaker} className="my-5" style={{ width: "70%" }}>
+                    </img>
                 </a>
+
+
             </div>
             <div className="image">
-                <img src={ohSnap} className="my-5" style={{ width: "70%" }}>
-                </img>
-                <a href="">
+                <a href="https://github.com/Gelenhaus/myFirstReact">
+                    <img src={ohSnap} className="my-5" style={{ width: "70%" }}>
+                    </img>
                 </a>
+
+
             </div>
             <div className="image">
-                <img src={morningArch} className="my-5" style={{ width: "70%" }}>
-                </img>
-                <a href="">
+                <a href="https://dippidydoo19.herokuapp.com/">
+                    <img src={morningArch} className="my-5" style={{ width: "70%" }}>
+                    </img>
                 </a>
+
+
             </div>
             <div className="image">
-                <img src={pizzaHunt} className="my-5" style={{ width: "70%" }}>
-                </img>
-                <a href="">
+                <a href="https://github.com/Gelenhaus/pizzaHunt">
+                    <img src={pizzaHunt} className="my-5" style={{ width: "70%" }}>
+                    </img>
                 </a>
+
+
             </div>
             <div className="image">
-                <img src={shopShop} className="my-5" style={{ width: "70%" }}>
-                </img>
-                <a href="">
+
+                <a href="https://github.com/Gelenhaus/shop-shop">
+                    <img src={shopShop} className="my-5" style={{ width: "70%" }}>
+                    </img>
                 </a>
             </div>
 
