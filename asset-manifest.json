@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0c3e54c.css",
-    "main.js": "/static/js/main.bd2aeed7.js",
-    "static/js/787.8ff18ba6.chunk.js": "/static/js/787.8ff18ba6.chunk.js",
-    "static/media/myReactPortfolioBackground.jpeg": "/static/media/myReactPortfolioBackground.4d10f190b8c73f7f9921.jpeg",
-    "static/media/morningarch.jpeg": "/static/media/morningarch.c2600531d2c8bcc1bb43.jpeg",
-    "static/media/ohSnap.jpg": "/static/media/ohSnap.12ebe1b0f013f82775b8.jpg",
-    "static/media/shopShop.jpg": "/static/media/shopShop.810f55ca4b5d9c9d9b1d.jpg",
-    "static/media/pizzaHunt.jpg": "/static/media/pizzaHunt.3357e4a524b9b9e14203.jpg",
-    "static/media/weatherDashBoard.jpg": "/static/media/weatherDashBoard.5a3310f207581dd684b1.jpg",
-    "static/media/noteTaker.jpg": "/static/media/noteTaker.19562114e90319a46620.jpg",
-    "static/media/ResumeGSE.txt": "/static/media/ResumeGSE.1b58618bd945c511e0da.txt",
-    "index.html": "/index.html",
-    "main.f0c3e54c.css.map": "/static/css/main.f0c3e54c.css.map",
-    "main.bd2aeed7.js.map": "/static/js/main.bd2aeed7.js.map",
-    "787.8ff18ba6.chunk.js.map": "/static/js/787.8ff18ba6.chunk.js.map"
+    "main.css": "/elenbaasReactPortfolio/static/css/main.f0c3e54c.css",
+    "main.js": "/elenbaasReactPortfolio/static/js/main.3fd12be2.js",
+    "static/js/787.8ff18ba6.chunk.js": "/elenbaasReactPortfolio/static/js/787.8ff18ba6.chunk.js",
+    "static/media/myReactPortfolioBackground.jpeg": "/elenbaasReactPortfolio/static/media/myReactPortfolioBackground.4d10f190b8c73f7f9921.jpeg",
+    "static/media/morningarch.jpeg": "/elenbaasReactPortfolio/static/media/morningarch.c2600531d2c8bcc1bb43.jpeg",
+    "static/media/ohSnap.jpg": "/elenbaasReactPortfolio/static/media/ohSnap.12ebe1b0f013f82775b8.jpg",
+    "static/media/shopShop.jpg": "/elenbaasReactPortfolio/static/media/shopShop.810f55ca4b5d9c9d9b1d.jpg",
+    "static/media/pizzaHunt.jpg": "/elenbaasReactPortfolio/static/media/pizzaHunt.3357e4a524b9b9e14203.jpg",
+    "static/media/weatherDashBoard.jpg": "/elenbaasReactPortfolio/static/media/weatherDashBoard.5a3310f207581dd684b1.jpg",
+    "static/media/noteTaker.jpg": "/elenbaasReactPortfolio/static/media/noteTaker.19562114e90319a46620.jpg",
+    "static/media/ResumeGSE.txt": "/elenbaasReactPortfolio/static/media/ResumeGSE.1b58618bd945c511e0da.txt",
+    "index.html": "/elenbaasReactPortfolio/index.html",
+    "main.f0c3e54c.css.map": "/elenbaasReactPortfolio/static/css/main.f0c3e54c.css.map",
+    "main.3fd12be2.js.map": "/elenbaasReactPortfolio/static/js/main.3fd12be2.js.map",
+    "787.8ff18ba6.chunk.js.map": "/elenbaasReactPortfolio/static/js/787.8ff18ba6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0c3e54c.css",
-    "static/js/main.bd2aeed7.js"
+    "static/js/main.3fd12be2.js"
   ]
 }
