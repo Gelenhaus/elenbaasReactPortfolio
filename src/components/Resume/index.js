@@ -1,11 +1,13 @@
 import React from 'react';
+import resume from '../Resume/ResumeGSE.txt';
 
 
 
 function Resume() {
     return (
         <resume>
-            EDUCATION: Bachelors of Science Central Michigan University
+            <a href={resume} download>Click to download</a>
+
         </resume>
     )
 }
