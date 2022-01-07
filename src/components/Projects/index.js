@@ -6,6 +6,7 @@ import ohSnap from '../../assets/ohSnap/ohSnap.jpg';
 import pizzaHunt from '../../assets/pizzaHunt/pizzaHunt.jpg';
 import shopShop from '../../assets/shopShop/shopShop.jpg';
 import weatherDashboard from '../../assets/weatherDashBoard/weatherDashBoard.jpg';
+import finalProject from '../../assets/finalProject/finalProject.jpg';
 
 function Projects() {
 
@@ -20,6 +21,14 @@ function Projects() {
             <div className="image">
                 <a href="https://gelenhaus.github.io/myWeatherDashboard/">
                     <img src={weatherDashboard} className="my-5" style={{ width: "70%" }} >
+                    </img>
+                </a>
+
+
+            </div>
+            <div className="image">
+                <a href="https://github.com/JD-Rowley/permaculture-exchange">
+                    <img src={finalProject} className="my-5" style={{ width: "70%" }} >
                     </img>
                 </a>
 
