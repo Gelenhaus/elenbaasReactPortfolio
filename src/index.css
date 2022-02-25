@@ -294,3 +294,9 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.myNaturePhoto {
+  border-radius: 50%;
+  height: 360px;
+  width: 340px;
+}

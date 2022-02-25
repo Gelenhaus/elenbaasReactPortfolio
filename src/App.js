@@ -6,7 +6,6 @@ import Footer from './components/Footer/index';
 import ContactMe from './components/ContactMe/index'
 import Resume from './components/Resume/index'
 
-
 function App() {
 
   const [currentCategory, setCurrentCategory] = useState('AboutMe');

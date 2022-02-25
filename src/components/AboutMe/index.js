@@ -14,16 +14,15 @@ function AboutMe() {
             <br></br>
             I grew up raising swine, and cattle, and one ill-tempered horse.
                 <br></br>
-
             I am enjoy skiing, Magic the Gathering, and hiking.
             <br></br>
-I started learning to code at the University of Utah until Covid hit.
-                <br></br>
-                Afterward I continued to work and joined the University of Utah coding bootcamp.
-                <br></br>
-                I currently reside just outside of Salt Lake City Utah.
+            I started learning to code at the University of Utah until Covid hit.
+            <br></br>
+            Afterward I continued to work and joined the University of Utah coding bootcamp.
+            <br></br>
+            I currently reside just outside of Salt Lake City Utah.
             </p>
-            <img src={cover} className="my-2" style={{ width: "60%" }} alt="cover" />
+            <img src={cover} className="myNaturePhoto" alt="cover" />
 
         </section>
 
