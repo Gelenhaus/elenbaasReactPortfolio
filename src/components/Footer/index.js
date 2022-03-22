@@ -2,18 +2,19 @@ import React from "react";
 
 function Footer() {
     return (
-        <section className="flex-row px-1">
+        <section className="outsideBox">
 
             <footer>
-                See my work on github
+                See my work on github ------
+                
             </footer>
-            <br>
-            </br>
-            <br>
-            </br>
-            <a href="https://github.com/Gelenhaus">
+
+            <div >
+            <a className="href" href="https://github.com/Gelenhaus">
                 https://github.com/Gelenhaus
             </a>
+            </div>
+
         </section>
     )
 

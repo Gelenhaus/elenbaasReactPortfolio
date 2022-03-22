@@ -30,12 +30,15 @@ function App() {
   }
 
   return (
-    <div>
-      <Nav currentCategory={currentCategory} setCurrentCategory={setCurrentCategory} />
-      <section>
-        {changeCategory(currentCategory)}
+    <div class="container">
+      <section class="container">
+        <Nav currentCategory={currentCategory} setCurrentCategory={setCurrentCategory} />
+        <section>
+          {changeCategory(currentCategory)}
+        </section>
+
+        <Footer />
       </section>
-      <Footer />
     </div>
   );
 }

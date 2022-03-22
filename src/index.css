@@ -17,6 +17,12 @@ main {
 
 }
 
+
+.href {
+  text-decoration: none;
+  color: #cccccc;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -47,8 +53,10 @@ h5,
 h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  margin: 15px 15px 15px 15px;
+  margin: 30px;
   line-height: 1.25;
+  border-top: 25px;
+
 }
 
 h1 {
@@ -119,9 +127,22 @@ button[disabled] {
   cursor: default;
   opacity: .8;
 }
+.projects {
+  
+  margin: auto;
+  width: 80%;
+  
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 img {
   max-width: 100%;
+  border: #444d66;
+  border-radius: 10px;
+  border-width: 8px;
+  border-style: solid;
 }
 
 span[role="img"] {
@@ -167,7 +188,7 @@ textarea {
 
 .container {
   width: 85%;
-  max-width: 1200px;
+  max-width:max-content;
   margin-left: auto;
   margin-right: auto;
 }
@@ -209,6 +230,7 @@ textarea {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
   margin-left: 20pt;
+ 
 }
 
 .px-1 {
@@ -234,6 +256,13 @@ textarea {
 .card {
   width: 25%;
   text-align: center;
+}
+
+.outsideBox {
+padding-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .img-thumbnail {
@@ -282,10 +311,10 @@ button {
 }
 
 a {
-	border-radius: 5px;
+	border-radius: 25px;
 	color: var(--primary);
 	font-weight: 600;
-	padding: 2px 4px;
+	padding: 20px;
 	margin-left: -2px;
 	margin-right: -2px;
 	
@@ -300,3 +329,4 @@ a {
   height: 360px;
   width: 340px;
 }
+

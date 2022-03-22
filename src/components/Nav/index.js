@@ -5,14 +5,14 @@ function Nav(props) {
     const options = ['AboutMe', 'Projects', 'Resume', 'ContactMe'];
 
     return (
-        <header>
-            <div>
-                <h2>
+        <header >
+            <div className="outsideBox">
+                <h2 class="container">
                     {props.currentCategory}
                 </h2>
             </div>
             <div>
-                <nav>
+                <nav className="outsideBox">
                     <ul>
                         {options.map(thang => (
                             < a
@@ -22,8 +22,12 @@ function Nav(props) {
                             >
                                 {thang}
                             </a>
+
+
                         ))}
+
                     </ul>
+                    <br></br>
                 </nav>
 
             </div>
