@@ -30,8 +30,8 @@ function App() {
   }
 
   return (
-    <div class="container">
-      <section class="container">
+    <div class="banner">
+      <section class="banner">
         <Nav currentCategory={currentCategory} setCurrentCategory={setCurrentCategory} />
         <section>
           {changeCategory(currentCategory)}

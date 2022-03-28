@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <section className="outsideBox">
+        <section className="footer">
 
             <footer>
                 See my work on github ------

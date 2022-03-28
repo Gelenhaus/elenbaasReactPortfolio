@@ -7,8 +7,12 @@ function AboutMe() {
     return (
 
 
-
+        
         <section className="outsideBox">
+
+            <div>
+                
+            </div>
 
             <div class="card">
                 <img class="card-image-top" src={mountainPicture} alt="A mountain top.">
@@ -33,7 +37,7 @@ function AboutMe() {
           I currently reside just outside of Salt Lake City Utah.
                                 </p>
 
-                    <Button> Link to github project.</Button>
+                    
 
                 </div>
             </div>

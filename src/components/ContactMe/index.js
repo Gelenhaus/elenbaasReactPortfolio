@@ -34,30 +34,34 @@ function ContactMe() {
         }
     };
     return (
-        <section>
+        <section className="container">
 
 
-            <h1>Contact me</h1>
+            <h1 className="center">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                <div className="center">
+                    <label className="center" htmlFor="name">Name:</label>
+                    <input className="center" type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+                <div className="center">
+                    <label className="center" htmlFor="email">Email address:</label>
+
+                    <input className="center" type="email" name="email" defaultValue={email} onBlur={handleChange} />
 
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                <div className="center">
+                    <label className="center" htmlFor="message">Message:</label>
+                    <textarea className="center" name="message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <div className="center">
+                    <button className="center" type="submit">Submit</button>
+                </div>
+
             </form>
         </section>
     );

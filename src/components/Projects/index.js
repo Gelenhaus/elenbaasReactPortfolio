@@ -16,7 +16,7 @@ function Projects() {
 
     return (
 
-        <section >
+        <section className="insideBox">
 
 
 
@@ -81,7 +81,9 @@ function Projects() {
             <h2 >
                 My Projects
             </h2>
-            <h3>
+            <br></br>
+
+            <h3 >
                 Click the images to checkout my projects.
             </h3>
             <div className="projects">

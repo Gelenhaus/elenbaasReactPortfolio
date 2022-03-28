@@ -5,10 +5,12 @@ import resume from '../Resume/ResumeGSE.txt';
 
 function Resume() {
     return (
-        <resume>
-            <a href={resume} download>Click to download</a>
+        <section className="projects">
+            <div className="resumeDownload">
+                <a href={resume} className="href" download>Click to download resume</a>
+            </div>
+        </section>
 
-        </resume>
     )
 }
 
