@@ -23,8 +23,13 @@ main {
 }
 
 .customBorder {
-  border-image: url("./assets/wood/woodgrain.jpeg");
-  border-image-width: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-image-repeat:stretch;
+  border-image-source: url("./assets/wood/woodgrain.jpeg");
+  border-image-slice: 20;
+ 
+  
 }
 
 

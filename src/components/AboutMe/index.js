@@ -1,7 +1,8 @@
 import React from 'react';
-import cover from '../../assets/cover/myReactPortfolioBackground.jpeg'
+import cover from '../../assets/cover/myReactPortfolioBackground.jpeg';
 import Button from 'react-bootstrap/Button';
-import mountainPicture from '../../assets/mountain/bigsky.jpeg'
+import mountainPicture from '../../assets/mountain/bigsky.jpeg';
+import woodPic from '../../assets/wood/woodgrain.jpeg';
 
 function AboutMe() {
     return (
@@ -11,7 +12,7 @@ function AboutMe() {
         <section className="outsideBox">
 
             <div>
-                
+                <p className="customBorder">Testing border images</p>
             </div>
 
             <div class="card">
