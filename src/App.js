@@ -3,8 +3,9 @@ import Nav from './components/Nav/index';
 import AboutMe from './components/AboutMe/index';
 import Projects from './components/Projects/index';
 import Footer from './components/Footer/index';
-import ContactMe from './components/ContactMe/index'
-import Resume from './components/Resume/index'
+import ContactMe from './components/ContactMe/index';
+import Resume from './components/Resume/index';
+
 
 function App() {
 
@@ -30,13 +31,12 @@ function App() {
   }
 
   return (
-    <div class="banner">
-      <section class="banner">
+    <div >
+      <section >
         <Nav currentCategory={currentCategory} setCurrentCategory={setCurrentCategory} />
         <section>
           {changeCategory(currentCategory)}
         </section>
-
         <Footer />
       </section>
     </div>

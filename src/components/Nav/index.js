@@ -6,13 +6,13 @@ function Nav(props) {
 
     return (
         <header >
-            <div className="outsideBox">
-                <h2 class="container">
+            <div >
+                <h2>
                     {props.currentCategory}
                 </h2>
             </div>
             <div>
-                <nav className="outsideBox">
+                <nav className="nav">
                     <ul>
                         {options.map(thang => (
                             < a

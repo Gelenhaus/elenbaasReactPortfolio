@@ -1,13 +1,13 @@
 import React from 'react';
-import resume from '../Resume/ResumeGSE.txt';
+import resume from '../Resume/GEResume2022 (1).pdf';
 
 
 
 function Resume() {
     return (
-        <section className="projects">
-            <div className="resumeDownload">
-                <a href={resume} className="href" download>Click to download resume</a>
+        <section >
+            <div className="resumeBox">
+                <a href={resume} download>Click to download resume</a>
             </div>
         </section>
 
