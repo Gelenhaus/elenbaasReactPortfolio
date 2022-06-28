@@ -5,13 +5,12 @@ function Footer() {
         <section className="footer">
 
             <footer>
-                See my work on github ------
-                
+                Click the link below to checkout my projects on github.
             </footer>
 
             <div >
-            <a className="href" href="https://github.com/Gelenhaus">
-                https://github.com/Gelenhaus
+                <a className="href" href="https://github.com/Gelenhaus">
+                    https://github.com/Gelenhaus
             </a>
             </div>
 

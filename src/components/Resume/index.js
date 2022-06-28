@@ -9,9 +9,9 @@ function Resume() {
     return (
         <section >
 
-            <div className="resumeBox">
+            <div className="custom">
 
-                <button>
+                <button className="customBorder">
                     <a href={resume} download>Click to download resume</a>
                 </button>
 

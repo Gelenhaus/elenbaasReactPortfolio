@@ -29,33 +29,36 @@ function ContactMe() {
         }
     };
     return (
-        <section className="contactBox">
-            <h1 >Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div >
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                </div>
-                <div >
-                    <label htmlFor="email">Email address:</label>
-
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-
-                </div>
-                <div >
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-                </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
+        <section >
+            <div className="custom">
+                <h1 className="custom">Contact me</h1>
+                <form id="contact-form" onSubmit={handleSubmit}>
+                    <div className="custom">
+                        <label htmlFor="name">Name:</label>
+                        <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                     </div>
-                )}
-                <div >
-                    <button type="submit">Submit</button>
-                </div>
+                    <div className="custom">
+                        <label htmlFor="email">Email address:</label>
 
-            </form>
+                        <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+
+                    </div>
+                    <div className="custom">
+                        <label htmlFor="message">Message:</label>
+                        <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <div className="custom">
+                        <button type="submit">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+
         </section>
     );
 }
